@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#about-us{
+    padding-top: 200px;
+}
+
+#about-us .container{
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+#about-us h1{
+    font-size: 70px;
+    font-family: "Didot", sans-serif ;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+#about-us h3{
+    font-size: 160%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+#about-us p{
+    /*font-family: "Courier New", sans-serif;*/
+    font-size: 90%;
+    padding-top: 20px;
+}
+
+#about-us-profile{
+    /*font-family: "Courier New", sans-serif;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*min-height: 100vh;*/
+    /*background: black;*/
+}
+
+#about-us-profile h2{
+    font-family: "Didot", sans-serif;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    font-weight: 900;
+}
+
+section{
+    position: relative;
+}
+
+section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background: linear-gradient(#f00,#f0f);*/
+    /*clip-path: circle(30% at right 70%);*/
+}
+
+section::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background: linear-gradient(#2196f3,#e91e63);*/
+    /*clip-path: circle(20% at 10% 10%);*/
+}
+
+
+#about-us-profile .container{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+#about-us-profile .container .card{
+    position: relative;
+    width: 180px;
+    height: 270px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+#about-us-profile .container .card .content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+#about-us-profile .container .card:hover .content{
+    opacity: 1;
+    transform: translateY(-30px);
+}
+
+#about-us-profile .container .card .content .imgBx{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid #e9e8e8;
+    margin-top: -45px;
+}
+
+
+#about-us-profile .container .card .content .imgBx img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#about-us-profile .container .card .content .contentBx{
+    text-align: center;
+}
+
+#about-us-profile .container .card .content .contentBx h3{
+    color: Black;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0 2px;
+    line-height: 1.1em;
+    /*font-family: "Courier New", sans-serif;*/
+}
+
+
+#about-us-profile .container .card .content .contentBx h3 span{
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 3px;
+}
+
+
+#about-us-profile .container .card .sci{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+}
+
+#about-us-profile .container .card .sci li{
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: calc(0.1s * var(--i));
+}
+
+#about-us-profile .container .card:hover .sci li{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+#about-us-profile .container .card .sci li a{
+    color: Black;
+    font-size: 24px;
+}
+
+
+
+
+
+
+

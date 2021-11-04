@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/Header.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+<!--Header-->
+<header style="position: relative; z-index: 1">
+    <div id="header-">
+        <div id="header-top">
+            <div id="header-top-content">
+                <ul style="padding-left: 3px">
+                    <li>VietNam</li>
+                    <li>English</li>
+                    <li><a href="https://www.google.com/maps/search/EVY+shop/@21.0046299,105.7770482,13z/data=!3m1!4b1">Find a store</a></li>
+                </ul>
+            </div>
+            <div id="header-top-logo">
+                <a href="../Home/Index.html"><img src="../Account/Img/Logo.png" height="100" width="200" alt="Logo"/></a>
+            </div>
+            <div id="header-top-toolbar">
+                <ul>
+                    <li><a href="../Account/account.html" style="color: black; font-size: 25px" class="fa fa-user-plus"></a></li>
+                    <li class="none"><a href="../Cart/Cart.html" style="color: black; font-size: 25px" class="fa fa-cart-plus"></a></li>
+                    <li class="search"></li>
+                </ul>
+                <div class="box">
+                    <div class="container-2">
+                        <span class="icon"><i style="font-size: 23px; color: black" class="fa fa-search"></i></span>
+                        <input type="search" id="search" placeholder="   Search..." />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menu">
+            <ul class="menu-n" style="padding-left: 0">
+                <li id="sub-menu">
+                    <a href="../Home/Index.html">Home</a>
+                    <div class="drop_down">
+                        <div id="drop_down_n">
+                            <div class="list_cate">
+                                <h5>SHOP BY BRAND</h5>
+                                <a href="../Product/product-brand/VanHeuSen.html"><p>Van Heusen</p></a>
+                                <a href="../Product/product-brand/ZARA.html"><p>ZARA</p></a>
+                                <a href="../Product/product-brand/Nike.html"><p>Nike</p></a>
+                                <!--                                <a>View All</a>-->
+                                <!--                                <a>View All</a>-->
+                                <!--                                <a>View All</a>-->
+                                <!--                                <a>View All</a>-->
+                            </div>
+                            <div class="list_cate">
+                                <h5>SHOP BY CATEGORY</h5>
+                                <a href="../Product/product-category/Men's-Products.html"><p>Men's Clothing</p></a>
+                                <a href="../Product/product-category/Women's-Products.html"><p>Women's Clothing</p></a>
+                                <a href="../Product/product-category/Sportswear.html"><p>Sportswear</p></a>
+                                <!--                                <a ><p></p></a>-->
+                                <!--                                <a ><p>Women's Style</p></a>-->
+                                <!--                                <a ><p>Shoes</p></a>-->
+                            </div>
+                            <div class="head_img">
+                                <div>
+                                    <a ><img src="../Product/Img/New-Collection/Zara-Collection-Spring-Summer-2019-Campaign02.jpg" alt="New Collection"></a>
+                                    <a >ZARA SPRING'S COLLECTION 2021</a>
+                                </div>
+                            </div>
+                            <div class="head_img">
+                                <div>
+                                    <a href=""><img src="../Product/Img/New-Collection/Van%20Heusen.jpg" alt="New Collection"></a>
+                                    <a >QUILTED SWAG SUIST - VANHEUSEN</a>
+                                </div>
+                            </div>
+                            <div class="head_img">
+                                <div>
+                                    <a ><img src="../Product/Img/New-Collection/Nike-Collection.jpg" alt="New Collection"></a>
+                                    <a >FLEA MARKET UNVEILS NEW COLLECTION WITH NIKE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="../Product/Product.html">Products</a></li>
+                <li><a href="../Contact/Contact.html">Contact</a></li>
+                <li><a href="../About_Us/About%20Us.html">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<!--TB-->
+<div style="background-color: whitesmoke"><div class="container" style="padding-top: 160px">
+    <div class="row">
+        <div class="container" style="text-align: center">
+                <div class="row">
+                    <h1 style="text-align: center">CONTACT US</h1>
+                </div>
+                <form>
+                    <div class="row">
+                        <div class="col-lg-12">
+
+                            <label for="FirstName"></label>
+                            <input type="text" id="FirstName" name="FirstName" placeholder="FirstName*" size="40" maxlength="20" required style="width: 388px">
+                            <label for="LastName"></label>
+                            <input type="text" id="LastName" placeholder="LastName*" size="40" maxlength="20" required style="width: 388px">
+                        </div>
+                    </div>
+                    <div class="row" style="padding-top: 20px">
+                        <div class="col-lg-12">
+                            <label for="email"></label>
+                            <input type="email" id="email" placeholder="Email*" size="86" maxlength="40"  required style="width: 785px">
+                        </div>
+                    </div>
+                    <div class="row" style="padding-top: 20px">
+                        <div class="col-lg-12">
+                            <select size="1"  required>
+                                <option value="stored type" disabled="disabled" selected="selected">Please select a store type</option>
+                                <option value="OnlineStore">Online Store</option>
+                                <option value="retailstore">Retail Store</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-top: 20px">
+                        <div class="col-lg-12">
+                            <label for="message"></label>
+                            <textarea rows="10" cols="90" id="message" placeholder="Your Message Here...." maxlength="2000" style="width: 785px"></textarea>
+                            <p>(2000 characters left)</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <input type="submit" value="SUBMIT">
+                        </div>
+                    </div>
+                </form>
+                <div id="" class="row justify-content-center" style="text-align: center; padding-top: 20px">
+                    <div class="col-lg-3" style="box-shadow: 0 0 5px rgb(0 0 0); background-color: lightyellow" >
+                        <div class="" style="padding-top: 30px;padding-bottom: 30px">
+                            <h5 class="">Mail Us</h5>
+                            <hr style="height: 10px;border-radius: 5px;color: red"/>
+                            <div class="">Please send your comments and inquiries to:</div>
+                            <div class="">
+                                GRACIOUS GARMENTS <br>
+                                (ATTN: Customer Service)
+                            </div>
+                            <div class="">
+                                GRACIOUS GARMENTS Group Headquarters <br>
+                                8 Ton That Thuyet, Cau Giay <br>
+                                VietNam
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3" style="box-shadow: 0 0 5px rgb(0 0 0); background-color: lightyellow;
+                        margin: 0 98px 0 98px">
+                        <div class="" style="padding-top: 30px;padding-bottom: 30px">
+                            <h5 class="">Speak To Us</h5>
+                            <hr style="height: 10px;border-radius: 5px;color: red"/>
+                            <div class="">
+                                Monday – Friday: 7h - 23h (GMT +7) <br>
+                                Saturday – Sunday: 7h - 12h (GMT +7) <br>
+                                Including Public Holidays
+                            </div>
+                            <div class="">*Operating hours may be affected on Eves of Public Holidays.</div>
+                            <div class="">
+                                <a href="tel:0333338888">0333338888</a>
+                            </div>
+                            <div class="">
+                                <a class="" >Chat Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3" style="box-shadow: 0 0 5px rgb(0 0 0); background-color: lightyellow">
+                        <div class="" style="padding-top: 30px;padding-bottom: 30px">
+                            <h5 class="">Find Us</h5>
+                            <hr style="height: 10px;border-radius: 5px;color: red"/>
+                            <a class="" href="https://www.google.com/maps/dir/21.0010112,105.8209792/EVY+store/@20.9932364,105.8146785,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3135ad0621f8afa1:0xea7593b8b7dec08!2m2!1d105.8442653!2d20.9840128">
+                                <span class="">Store Locator</span>
+                            </a>
+                            <br/>
+                            <select class="" id="countries">
+                                <option disabled="" selected="">Location</option>
+                                <option value="AM" data-country-name="Armenia">
+                                    Armenia
+                                </option>
+                                <option value="AZ" data-country-name="Azerbaijan">
+                                    Azerbaijan
+                                </option>
+                                <option value="BH" data-country-name="Bahrain">
+                                    Bahrain
+                                </option>
+                                <option value="BN" data-country-name="Brunei">
+                                    Brunei
+                                </option>
+                                <option value="KH" data-country-name="Cambodia">
+                                    Cambodia
+                                </option>
+                                <option value="CN" data-country-name="China">
+                                    China
+                                </option>
+                                <option value="EG" data-country-name="Egypt">
+                                    Egypt
+                                </option>
+                                <option value="GE" data-country-name="Georgia">
+                                    Georgia
+                                </option>
+                                <option value="HK" data-country-name="Hong Kong">
+                                    Hong Kong
+                                </option>
+                                <option value="IN" data-country-name="India">
+                                    India
+                                </option>
+                                <option value="ID" data-country-name="Indonesia">
+                                    Indonesia
+                                </option>
+                                <option value="JP" data-country-name="Japan">
+                                    Japan
+                                </option>
+                                <option value="JO" data-country-name="Jordan">
+                                    Jordan
+                                </option>
+                                <option value="KW" data-country-name="Kuwait">
+                                    Kuwait
+                                </option>
+                                <option value="LB" data-country-name="Lebanon">
+                                    Lebanon
+                                </option>
+                                <option value="LY" data-country-name="Libya">
+                                    Libya
+                                </option>
+                                <option value="MO" data-country-name="Macau">
+                                    Macau
+                                </option>
+                                <option value="MY" data-country-name="Malaysia">
+                                    Malaysia
+                                </option>
+                                <option value="MT" data-country-name="Malta">
+                                    Malta
+                                </option>
+                                <option value="MN" data-country-name="Mongolia">
+                                    Mongolia
+                                </option>
+                                <option value="MA" data-country-name="Morocco">
+                                    Morocco
+                                </option>
+                                <option value="MM" data-country-name="Myanmar">
+                                    Myanmar
+                                </option>
+                                <option value="OM" data-country-name="Oman">
+                                    Oman
+                                </option>
+                                <option value="PK" data-country-name="Pakistan">
+                                    Pakistan
+                                </option>
+                                <option value="PH" data-country-name="Philippines">
+                                    Philippines
+                                </option>
+                                <option value="QA" data-country-name="Qatar">
+                                    Qatar
+                                </option>
+                                <option value="SA" data-country-name="Saudi Arabia">
+                                    Saudi Arabia
+                                </option>
+                                <option value="SG" data-country-name="Singapore">
+                                    Singapore
+                                </option>
+                                <option value="KR" data-country-name="South Korea">
+                                    South Korea
+                                </option>
+                                <option value="LK" data-country-name="Sri Lanka">
+                                    Sri Lanka
+                                </option>
+                                <option value="TW" data-country-name="Taiwan">
+                                    Taiwan
+                                </option>
+                                <option value="TH" data-country-name="Thailand">
+                                    Thailand
+                                </option>
+                                <option value="AE" data-country-name="United Arab Emirates">
+                                    United Arab Emirates
+                                </option>
+                                <option value="VN" data-country-name="Vietnam">
+                                    Vietnam
+                                </option>
+                            </select><br/>
+                            <button style="margin-top: 10px" data-storelocator-link="https://www.google.com/maps/dir/21.0010112,105.8209792/EVY+store/@20.9932364,105.8146785,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3135ad0621f8afa1:0xea7593b8b7dec08!2m2!1d105.8442653!2d20.9840128">
+                                Search for a location
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="row justify-content-center" style="padding-top: 30px; padding-bottom: 10px">
+            <div class="col-11"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7838.684254869503!2d106.70676642475235!3d10.785086936675276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1547181657956"
+                    width="100%" height="300" frameborder="0" style="border:0" allowfullscreen>
+            </iframe>
+            </div>
+</div>
+
+</div>
+</div>
+<!--Footer-->
+<footer style="background-color: #333;position: relative;z-index: 0">
+    <div class="container">
+        <div class="row" style="font-family: futura-pt,
+    -apple-system,blinkmacsystemfont,Segoe UI,roboto,Helvetica Neue,arial,sans-serif,
+    Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+padding-top: 30px; font-size: small">
+            <div class="col-lg-3">
+                <div>
+                    <h3 style="color: whitesmoke; font-size:1.5rem">SHOPPING WITH US</h3>
+                    <p style="color: whitesmoke">My Account</p>
+                    <p style="color: whitesmoke">Shipping & Tracking</p>
+                    <p style="color: whitesmoke">Returns & Exchanges</p>
+                    <p style="color: whitesmoke">Promotions</p>
+                    <p style="color: whitesmoke">Size Guide</p>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <h3 style="color: whitesmoke; font-size:1.5rem">CUSTOMER CARE</h3>
+                <p style="color: whitesmoke">Order Status</p>
+                <p style="color: whitesmoke">Privilege Membership</p>
+                <p style="color: whitesmoke">FAQ</p>
+                <p style="color: whitesmoke">Contact Us</p>
+                <p style="color: whitesmoke">Counterfeit Education</p>
+            </div>
+            <div class="col-lg-3" style="height: 210px">
+                <h3 style="color: whitesmoke; font-size:1.5rem">CONTACT US</h3>
+                <p style="color: whitesmoke"><strong><u>Phone</u></strong>: 0333338888</p>
+                <p style="color: whitesmoke"><strong><u>Email</u></strong>: GraciousGarments@gmail.com </p>
+                <p style="color: whitesmoke"><strong><u>Facebook</u></strong>: GraciousGarments</p>
+            </div>
+            <div class="col-lg-3" style="height: 211px">
+                <h3 style="color: whitesmoke; font-size:1.5rem">FOLLOW US</h3>
+                <i class="fa fa-youtube-play" style="color: whitesmoke; font-size: 33px; padding-right: 7px"></i>
+                <i class="fa fa-twitter-square" style="color: whitesmoke; font-size: 30px; padding-right: 7px"></i>
+                <i class="fa fa-facebook-official" style="color: whitesmoke; font-size: 30px; padding-right: 7px"></i>
+                <i class="fa fa-instagram" style="color: whitesmoke; font-size: 30px;"></i>
+            </div>
+        </div>
+    </div>
+    <div>
+        <hr style="background-color: white">
+        <p style="text-align: center;
+color: whitesmoke">Copyright 2020 - By GraciousGarments</p>
+    </div>
+</footer>
+</body>
+</html>z

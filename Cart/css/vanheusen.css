@@ -1,0 +1,39 @@
+.row{
+    display: flex;
+}
+.rating .fa{
+    color: #ff523b;
+}
+.col-lg-3 img{
+    width:100%;
+}
+.than .col-lg-3{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    /*transition: all;*/
+}
+.than .col-lg-3:hover {
+    /*-webkit-transform: scaleY(+1.2);*/
+    transform: translateY(-5px);
+    transition: all ease-in-out 0.5s;
+}
+.page-btn{
+    margin: 0 auto 80px 100px;
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background-color:black;
+    color: white;
+    opacity: 0.8;
+}
